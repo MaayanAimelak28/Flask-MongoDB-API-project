@@ -1,13 +1,11 @@
 # MongoDB Flask API
 This project provides a simple Flask-based REST API that performs CRUD (Create, Read, Update, Delete) operations on a MongoDB collection. The API allows users to interact with a database and manage documents in a collection.
-
 The application is containerized using Docker and orchestrated with Docker Compose for easy setup and deployment.
 
 ## Prerequisites
 Before running the application, ensure that the following tools are installed on your system:
 
-##### Docker: To build and run containers.
-##### Docker Compose: To manage multi-container Docker applications.
+##### Docker: To build and run containers. ##### Docker Compose: To manage multi-container Docker applications.
 
 ## Getting Started
 Follow these steps to get the application running:
@@ -52,15 +50,20 @@ You can test the API using tools like Postman.
 
 
 ![צילום מסך 2024-11-07 133240](https://github.com/user-attachments/assets/9c8ed6e6-e3c4-4af2-8926-ad47942800a6)
+
 ![צילום מסך 2024-11-07 133229](https://github.com/user-attachments/assets/9903ac0d-73b3-4b4b-8398-ba59115acbdb)
+
 ![צילום מסך 2024-11-07 133217](https://github.com/user-attachments/assets/3eb941c5-42ea-4190-970f-9e44158b9ec4)
+
 ![צילום מסך 2024-11-07 133157](https://github.com/user-attachments/assets/2d8c16f7-aad8-4c90-98d7-6ba70850c759)
+
 ![צילום מסך 2024-11-07 133139](https://github.com/user-attachments/assets/787a19ab-5afb-455a-951d-169a6c653439)
+
 ![צילום מסך 2024-11-07 133025](https://github.com/user-attachments/assets/510d158d-ec2d-40cd-9a92-98990759cb08)
+
 ![צילום מסך 2024-11-07 133012](https://github.com/user-attachments/assets/91b08e23-f0fc-4c33-8213-cab54aebf309)
+
 ![צילום מסך 2024-11-07 133000](https://github.com/user-attachments/assets/94d30d08-69b7-4289-a701-08f0144ba540)
-
-
 
 ##### 7.Stopping the Containers
 To stop the running containers, use the following command:
