@@ -13,26 +13,27 @@ Follow these steps to get the application running:
 ##### 1. Clone the Repository
 Clone the repository to your local machine:
 `git clone https://github.com/yourusername/yourrepo.git`
+
 `cd yourrepo`
 
 ##### 2. Verify Docker Installation
 Ensure that Docker is installed and running on your machine:
-docker -v
+`docker -v`
 You should see the version of Docker installed, e.g., Docker version 20.x.x.
 
 ##### 3. Pull MongoDB Image
 Pull the MongoDB Docker image to set up the database container:
-docker pull mongo
+`docker pull mongo`
 This command will download the latest MongoDB image from Docker Hub.
 
 ##### 4. Build the Docker Image for the Flask API
 You need to build the Docker image for the Flask API. This will package the application into a container image.
-docker-compose build
+`docker-compose build`
 This command will build the images for the Flask API service defined in the docker-compose.yml file.
 
 ##### 5. Start the Containers
 use Docker Compose to start both the MongoDB container and the Flask API container:
-docker-compose up
+`docker-compose up`
 This will run the application in the foreground. The API will be available on http://localhost:5001.
 
 ##### 6. Access the API
