@@ -1,0 +1,13 @@
+version: "3" # Specify the version of the Docker Compose file format
+services:
+    # MongoDB service
+    mymongo_1:
+        image: "mongo" # Use the official MongoDB image from Docker Hub
+
+    # Flask application service
+    myreader:
+        build: .  # Build the Docker image using the Dockerfile in the current directory
+        depends_on:
+            - mymongo_1 # Ensure MongoDB starts before this service
+        ports:
+            - "5001:5001" # Map port 5001 on the host to port 5001 in the container
