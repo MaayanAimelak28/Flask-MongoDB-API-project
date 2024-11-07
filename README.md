@@ -4,8 +4,8 @@ The application is containerized using Docker and orchestrated with Docker Compo
 
 ## Prerequisites
 Before running the application, ensure that the following tools are installed on your system:
-##### Docker: To build and run containers.
-##### Docker Compose: To manage multi-container Docker applications.
+- **Docker**: To build and run containers.
+- **Docker Compose**: To manage multi-container Docker applications.
 
 ## Getting Started
 Follow these steps to get the application running:
