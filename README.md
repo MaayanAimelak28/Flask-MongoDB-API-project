@@ -13,7 +13,7 @@ Follow these steps to get the application running:
 ##### 1. Clone the Repository
 Clone the repository to your local machine:
 
-`git clone https://github.com/yourusername/yourrepo.git`
+`git clone https://github.com/MaayanAimelak28/Flask-MongoDB-API-project.git`
 
 `cd yourrepo`
 
