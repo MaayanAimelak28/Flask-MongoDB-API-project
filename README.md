@@ -12,8 +12,8 @@ Follow these steps to get the application running:
 
 ##### 1. Clone the Repository
 Clone the repository to your local machine:
-git clone https://github.com/yourusername/yourrepo.git
-cd yourrepo
+`git clone https://github.com/yourusername/yourrepo.git`
+`cd yourrepo`
 
 ##### 2. Verify Docker Installation
 Ensure that Docker is installed and running on your machine:
